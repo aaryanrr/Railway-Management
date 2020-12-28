@@ -1,9 +1,5 @@
 __RAILWAY MANAGEMENT SYSTEM__
 
-(By Aryan Rai and Siddharth Kandel)
-
-CLASS 12TH CBSE PROJECT
-
 ---------
 :FOLDERS:
 _________
