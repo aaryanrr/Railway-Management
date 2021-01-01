@@ -53,7 +53,7 @@ def CreateTables():
     """
 
     db = con.connect(host="localhost", user="root",
-                     database="railway", password=YOURPASSWORD)
+                     database="railway", password=YOUR_PASSWORD)
     cur = db.cursor()
 
     cur.execute(
