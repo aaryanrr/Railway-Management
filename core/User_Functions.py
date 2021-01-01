@@ -32,8 +32,8 @@ def AvailableTrains():
     Parameters -> None   
     """
 
-    mn = mysql.connector.connect(host="localhost", user="root",
-                                 password="aryan", database="railway")
+    mn = mysql.connector.connect(host="localhost", user=YOUR_USERNAME,
+                                 password=YOUR_PASSWORD, database="railway")
     cur = mn.cursor()
 
     print("Search by Entering the Station Codes!")
@@ -85,8 +85,8 @@ def CheckFare():
     Parameters -> None
     """
 
-    mn = mysql.connector.connect(host="localhost", user="root",
-                                 password="aryan", database="railway")
+    mn = mysql.connector.connect(host="localhost", user=YOUR_USERNAME,
+                                 password=YOUR_PASSWORD, database="railway")
     cur = mn.cursor()
 
     print("Search by Entering the Station Code!")
@@ -135,8 +135,8 @@ def ShowBookings():
     Parameters -> None
     """
 
-    mn = mysql.connector.connect(host="localhost", user="root",
-                                 password="aryan", database="railway")
+    mn = mysql.connector.connect(host="localhost", user=YOUR_USERNAME,
+                                 password=YOUR_PASSWORD, database="railway")
     cur = mn.cursor()
 
     mobile_no = input("Please Enter your 10 Digit Mobile Number: ")
@@ -165,8 +165,8 @@ def BookTrain():
     Parameters -> None
     """
 
-    mn = mysql.connector.connect(host="localhost", user="root",
-                                 password="aryan", database="railway")
+    mn = mysql.connector.connect(host="localhost", user=YOUR_USERNAME,
+                                 password=YOUR_PASSWORD, database="railway")
     cur = mn.cursor()
     while True:
         try:
@@ -284,8 +284,8 @@ def CancelBooking():
     Parameters -> None
     """
 
-    mn = mysql.connector.connect(host="localhost", user="root",
-                                 password="aryan", database="railway")
+    mn = mysql.connector.connect(host="localhost", user=YOUR_USERNAME,
+                                 password=YOUR_PASSWORD, database="railway")
     cur = mn.cursor()
 
     print("Please use the Show my Bookings Option\n to get the Unique ID of the Booking you want to Cancel!")
