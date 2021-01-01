@@ -57,3 +57,4 @@ ___________________
 5. `py Main.py` to see if the program is running correctly and is able to connect to MySQL Server. (Feel free to ask for help if you face any error)
 
 NOTE: Step 2 is optional but highly recommended to avoid conflicting packages.
+NOTE: After Cloning the Repo rename the README.md to README.txt in order for the About() Function in /core.Other.py to work.
