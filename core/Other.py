@@ -14,8 +14,8 @@ def About():
 
     Parameters -> None
     """
-
-    with open("C:\\Railway\\README.txt") as file:
+    # Change the path given here to the absolute path of the README file
+    with open(FULL_PATH_TO_THE_README_FILE) as file:
         data = file.read()
         print(data)
 
