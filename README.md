@@ -1,4 +1,4 @@
-__RAILWAY MANAGEMENT SYSTEM__
+RAILWAY MANAGEMENT SYSTEM
 
 ---------
 :FOLDERS:
@@ -45,3 +45,15 @@ Overview: It is a Railway Management system in which a user can book tickets, ca
 7. Menu: Shows the menu
 8. About: Prints the content of this file to the screen
 9. Exit: Exit the program
+
+-------------------
+:ENVIRONMENT SETUP:
+___________________
+
+1. Clone the Repository to your machine.
+2. Create a Virtual Environment using virtualenv or pipenv.
+3. `pip install -r Requirements.txt` to install the required packages automatically.
+4. Make sure the MySQL Service is running and change the PASSWORD field in the files with the password of your local SQL server.
+5. `py Main.py` to see if the program is running correctly and is able to connect to MySQL Server. (Feel free to ask for help if you face any error)
+
+NOTE: Step 2 is optional but highly recommended to avoid conflicting packages.
