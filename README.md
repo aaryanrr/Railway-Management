@@ -53,7 +53,7 @@ ___________________
 1. Clone the Repository to your machine.
 2. Create a Virtual Environment using virtualenv or pipenv.
 3. `pip install -r Requirements.txt` to install the required packages automatically.
-4. Make sure the MySQL Service is running and change the PASSWORD field in the files with the password of your local SQL server.
+4. Make sure the MySQL Service is running and change the YOUR_PASSWORD in the files with the password and the YOUR_USERNAME with the username of your local SQL server.
 5. `py Main.py` to see if the program is running correctly and is able to connect to MySQL Server. (Feel free to ask for help if you face any error)
 
 NOTE: Step 2 is optional but highly recommended to avoid conflicting packages.
