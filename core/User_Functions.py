@@ -1,4 +1,4 @@
-# This Module has the Funtions that allow a User to do Certain Task's
+# This Module has the Functions that allow a User to do Certain Task's
 
 # Importing Required Modules
 
