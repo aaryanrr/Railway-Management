@@ -33,6 +33,6 @@ def InsertDataTrain():
     except FileNotFoundError:
         print("Please check whether the file is in the Assets Folder or not and try changing the Location in InsertData.py")
     finally:
-        mn.commit()  # Important: Commiting the Changes
+        mn.commit()  # Important: Committing the Changes
         cur.close()
         mn.close()

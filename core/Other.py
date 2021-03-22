@@ -28,7 +28,7 @@ def ClearScreen():
     """
 
     print("Clearing..")
-    time.sleep(1)
+    time.sleep(2)
     os.system("cls")
 
 
